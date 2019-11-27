@@ -1,0 +1,66 @@
+header{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    font-family: Arial;
+}
+
+header h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+header a{
+    display: block;
+    width: 100px;
+    padding: 10px 10px;
+    margin: 20px auto;
+    
+    background: #8f7166;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    background: #9f8b77;
+}
+
+header p{
+    margin: 20px auto;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+#grid-container{
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    margin: 30px auto;
+    background: #bbada0;
+
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid-cell{
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+    background: #ccc0b3;
+
+    position: absolute;
+}
+
+.number-cell{
+    border-radius: 6px;
+
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+
+    position: absolute;
+}
